@@ -1,7 +1,7 @@
 #pragma once
-#include "Tank.h"
+#include "LiquidTank.h"
 
-class Tank102: public Tank
+class Tank102: public LiquidTank
 {
 	double dLevelValue;
 

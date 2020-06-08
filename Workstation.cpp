@@ -12,7 +12,7 @@ Workstation::~Workstation()
 
 void Workstation::emergenceStop()
 {
-	std::cout << "Stop all the pump and valve" << std::endl;
+	std::cout << "Emergency! Stop all the pump and valve" << std::endl;
 	pipe1.CloseValve();
 	pipe2.StopPump();
 }

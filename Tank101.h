@@ -1,7 +1,7 @@
 #pragma once
-#include "Tank.h"
+#include "LiquidTank.h"
 
-class Tank101: public Tank
+class Tank101: public LiquidTank
 {
 	bool bMaxLevelStatus;
 	bool bMinLevelStatus;

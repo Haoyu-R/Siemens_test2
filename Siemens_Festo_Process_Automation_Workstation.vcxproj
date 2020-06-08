@@ -147,19 +147,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Pipe.cpp" />
+    <ClCompile Include="LiquidPipe.cpp" />
     <ClCompile Include="Pump.cpp" />
     <ClCompile Include="Siemens_Festo_Process_Automation_Workstation.cpp" />
-    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="LiquidTank.cpp" />
     <ClCompile Include="Tank101.cpp" />
     <ClCompile Include="Tank102.cpp" />
     <ClCompile Include="Valve.cpp" />
     <ClCompile Include="Workstation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Pipe.h" />
+    <ClInclude Include="LiquidPipe.h" />
     <ClInclude Include="Pump.h" />
-    <ClInclude Include="Tank.h" />
+    <ClInclude Include="LiquidTank.h" />
     <ClInclude Include="Tank101.h" />
     <ClInclude Include="Tank102.h" />
     <ClInclude Include="Valve.h" />

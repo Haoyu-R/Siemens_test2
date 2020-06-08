@@ -33,10 +33,10 @@
     <ClCompile Include="Tank102.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tank.cpp">
+    <ClCompile Include="LiquidPipe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pipe.cpp">
+    <ClCompile Include="LiquidTank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,10 +56,10 @@
     <ClInclude Include="Tank102.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tank.h">
+    <ClInclude Include="LiquidPipe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Pipe.h">
+    <ClInclude Include="LiquidTank.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

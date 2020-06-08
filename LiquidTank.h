@@ -1,9 +1,9 @@
 #pragma once
-class Tank
+class LiquidTank
 {
 public:
-	Tank();
-	~Tank();
+	LiquidTank();
+	~LiquidTank();
 protected:
 	bool bOverflowStatus;
 };

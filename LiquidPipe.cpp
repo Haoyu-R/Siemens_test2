@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Pipe.h"
+#include "LiquidPipe.h"
 
-Pipe::Pipe() {
+LiquidPipe::LiquidPipe() {
 	std::cout << "Initialize pipe in the workstation" << std::endl;
 }
 
-Pipe::~Pipe()
+LiquidPipe::~LiquidPipe()
 {
 }
 

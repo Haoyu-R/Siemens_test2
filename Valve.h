@@ -1,7 +1,7 @@
 #pragma once
-#include "Pipe.h"
+#include "LiquidPipe.h"
 
-class Valve: public Pipe
+class Valve: public LiquidPipe
 {
 public:
 	Valve();
