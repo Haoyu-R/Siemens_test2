@@ -7,5 +7,7 @@
 int main()
 {
     Workstation station1 = Workstation();
+    station1.pipe1.OpenValve();
+    station1.pipe2.StartPump();
     station1.emergenceStop();
 }

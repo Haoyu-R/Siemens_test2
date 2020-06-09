@@ -3,7 +3,7 @@
 
 Pump::Pump() :bPumpStatus{false}
 {
-	std::cout << "It's a Pump" << std::endl;
+	std::cout << "It's on a pump" << std::endl;
 }
 
 Pump::~Pump()
@@ -12,10 +12,12 @@ Pump::~Pump()
 
 void Pump::StartPump()
 {
+	std::cout << "Start the pump" << std::endl;
 	bPumpStatus = true;
 }
 
 void Pump::StopPump()
 {
+	std::cout << "Stop the pump" << std::endl;
 	bPumpStatus = false;
 }
