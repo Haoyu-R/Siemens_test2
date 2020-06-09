@@ -3,7 +3,7 @@
 
 Workstation::Workstation()
 {
-	std::cout << "Initialize workstation" << std::endl;
+	std::cout << "Initialize Festo Process Automation Workstation" << std::endl;
 }
 
 Workstation::~Workstation()
@@ -12,7 +12,7 @@ Workstation::~Workstation()
 
 void Workstation::emergenceStop()
 {
-	std::cout << "Emergency! Stop all the pump and valve" << std::endl;
+	std::cout << "Activate emergency stop of the workstation." << std::endl;
 	pipe1.CloseValve();
 	pipe2.StopPump();
 }

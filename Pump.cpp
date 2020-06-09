@@ -12,12 +12,12 @@ Pump::~Pump()
 
 void Pump::StartPump()
 {
-	std::cout << "Start the pump" << std::endl;
+	std::cout << "Turn the pump on." << std::endl;
 	bPumpStatus = true;
 }
 
 void Pump::StopPump()
 {
-	std::cout << "Stop the pump" << std::endl;
+	std::cout << "Turn the pump off." << std::endl;
 	bPumpStatus = false;
 }

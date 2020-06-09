@@ -12,12 +12,12 @@ Valve::~Valve()
 
 void Valve::OpenValve()
 {
-	std::cout << "Open the valve" << std::endl;
+	std::cout << "Turn the valve on." << std::endl;
 	bValveStatus = true;
 }
 
 void Valve::CloseValve()
 {
-	std::cout << "Close the valve" << std::endl;
+	std::cout << "Turn the valve off." << std::endl;
 	bValveStatus = false;
 }
